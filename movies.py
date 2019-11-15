@@ -19,19 +19,25 @@ prefix = """
 
 movie_query = prefix + """
     
-SELECT ?movie ?name ?director ?directorLabel ?genre ?genreLabel WHERE
+SELECT ?movie ?name ?duration ?director ?directorLabel  (MIN(YEAR(?publicationDate)) as ?year) (GROUP_CONCAT(DISTINCT (?genre); SEPARATOR=", ") AS ?genres) (GROUP_CONCAT(DISTINCT (?genreLabel); SEPARATOR=", ") AS ?genreLabels)  WHERE
 {
-	?movie wdt:P166 ?award.
+    ?movie wdt:P166 ?award.
     ?award wdt:P31 wd:Q19020.
     ?movie wdt:P31 wd:Q11424.
     ?movie wdt:P1476 ?name.
     OPTIONAL {
-      ?movie wdt:P57 ?director. 
-      SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }.
-      ?movie wdt:P136 ?genre. 
-      SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+      ?movie wdt:P2047 ?duration.
+      ?movie wdt:P577 ?publicationDate.
+      ?movie wdt:P57 ?director.
+      ?movie wdt:P136 ?genre.
+      SERVICE wikibase:label {
+        bd:serviceParam wikibase:language "en".
+        ?director rdfs:label ?directorLabel.
+        ?genre rdfs:label ?genreLabel
+      }
     }
 }
+GROUP BY ?movie ?name ?duration ?director ?directorLabel 
 ORDER BY ?movie LIMIT 10000 OFFSET %i"""
 
 actor_query = prefix + """
@@ -65,26 +71,22 @@ def parse_movie_results(results, nodes, edges):
     for result in results["results"]["bindings"]:
         movie = result["movie"]["value"]
         label = result["name"]["value"]
-        
+        genres = result["genres"]["value"]
+        genre_labels = result["genreLabels"]["value"]
+
         if "director" in result:
             director = result["director"]["value"]
             director_label = result["directorLabel"]["value"]
           
-        if "genre" in result: 
-            genre = result["genre"]["value"]
-            genre_label = result["genreLabel"]["value"]
+        year = result["year"]["value"] if "year" in result else ""
+        duration = result["duration"]["value"] if "duration" in result else ""
 
-
-        if movie in nodes: 
-            nodes[movie]['genre'] += "," + genre
-            nodes[movie]['genre_label'] += "," + genre_label
-        else:
-             nodes[movie] = {'label': label, 'type': 'MOVIE','genre': genre, 'genre_label': genre_label}
+        nodes[movie] = {'label': label, 'type': 'MOVIE','genre': genres, 'genre_label': genre_labels, 'year': year, 'duration': duration}
 
         if director not in nodes:
              nodes[director] = {'label': director_label, 'type': 'DIRECTOR'}
         
-        edges = edges.append({'Source': director, 'Target': movie, 'Type': 'is_directing'}, ignore_index=True)       
+        edges = edges.append({'Source': director, 'Target': movie, 'Label': 'is_directing'}, ignore_index=True)       
 
     return nodes, edges
 
@@ -100,7 +102,7 @@ def parse_actor_results(results, nodes, edges):
         if actor not in nodes:
              nodes[actor] = {'label': label, 'type': 'ACTOR'}
         
-        edges = edges.append({'Source': actor, 'Target': movie, 'Type': 'is_acting'}, ignore_index=True)       
+        edges = edges.append({'Source': actor, 'Target': movie, 'Label': 'is_acting'}, ignore_index=True)       
 
     return nodes, edges
 
@@ -116,7 +118,7 @@ def write_csvs_edges(edges_df):
 if __name__ == "__main__":
     nodes = {}
     edges = pd.DataFrame(columns=['Source', 'Target'])
-
+    
     currentOffset = 0
     has_remaining_results = True
     while (has_remaining_results):
@@ -142,7 +144,7 @@ if __name__ == "__main__":
             has_remaining_results = False
 
 
-    pd_nodes = pd.DataFrame.from_dict(nodes, columns=['label','type', 'genre', 'genre_label'], orient='index')
+    pd_nodes = pd.DataFrame.from_dict(nodes, columns=['label','type', 'duration', 'year', 'genre', 'genre_label'], orient='index')
 
     edges = remove_duplicates(edges)
     write_csvs(pd_nodes)
