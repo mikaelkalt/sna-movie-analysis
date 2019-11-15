@@ -76,10 +76,10 @@ def parse_movie_results(results, nodes, edges):
 
 
         if movie in nodes: 
-            nodes[movie]['genre'].append(genre)
-            nodes[movie]['genre_label'].append(genre_label)
+            nodes[movie]['genre'] += "," + genre
+            nodes[movie]['genre_label'] += "," + genre_label
         else:
-             nodes[movie] = {'label': label, 'type': 'MOVIE','genre': [genre], 'genre_label': [genre_label]}
+             nodes[movie] = {'label': label, 'type': 'MOVIE','genre': genre, 'genre_label': genre_label}
 
         if director not in nodes:
              nodes[director] = {'label': director_label, 'type': 'DIRECTOR'}
@@ -108,10 +108,10 @@ def remove_duplicates(nodes):
     return nodes.drop_duplicates()
 
 def write_csvs(nodes_df):
-    nodes_df.to_csv('nodes.csv', index=True, index_label='ID', encoding='utf-8')
+    nodes_df.to_csv('output/nodes.csv', index=True, index_label='ID', encoding='utf-8')
 
 def write_csvs_edges(edges_df): 
-    edges_df.to_csv('edges.csv', index=False, encoding='utf-8')
+    edges_df.to_csv('output/edges.csv', index=False, encoding='utf-8')
 
 if __name__ == "__main__":
     nodes = {}
@@ -143,8 +143,6 @@ if __name__ == "__main__":
 
 
     pd_nodes = pd.DataFrame.from_dict(nodes, columns=['label','type', 'genre', 'genre_label'], orient='index')
-
-    
 
     edges = remove_duplicates(edges)
     write_csvs(pd_nodes)
