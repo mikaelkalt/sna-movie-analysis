@@ -91,13 +91,16 @@ def parse_movie_results(results, nodes, edges):
           
         year = result["year"]["value"] if "year" in result else ""
         duration = result["duration"]["value"] if "duration" in result else ""
-
-        nodes[movie] = {'label': label, 'type': 'MOVIE','genre': genres, 'genre_label': genre_labels, 'year': year, 'duration': duration}
-
-        if director not in nodes:
-             nodes[director] = {'label': director_label, 'type': 'DIRECTOR', 'year': director_birth_year }
         
-        edges = edges.append({'Source': director, 'Target': movie, 'category': 'is_directing', 'age': directing_age }, ignore_index=True)       
+        if int(directing_age) < 0: 
+            print("{0} is probably too young ({1}) to direct the movie {2}".format(director, directing_age, movie))
+        else: 
+            nodes[movie] = {'label': label, 'type': 'MOVIE','genre': genres, 'genre_label': genre_labels, 'year': year, 'duration': duration}
+        
+            if director not in nodes:
+                nodes[director] = {'label': director_label, 'type': 'DIRECTOR', 'year': director_birth_year }
+        
+            edges = edges.append({'Source': director, 'Target': movie, 'category': 'is_directing', 'age': directing_age }, ignore_index=True)       
 
     return nodes, edges
 
@@ -111,12 +114,15 @@ def parse_actor_results(results, nodes, edges):
         actor_birth_year = result["actorBirthYear"]["value"] if "actorBirthYear" in result else 0
           
         if movie not in nodes: 
-            print(movie + " was not found before")        
+            print("{0} was not found before".format(movie))        
 
-        if actor not in nodes:
-             nodes[actor] = {'label': label, 'type': 'ACTOR', 'year': actor_birth_year}
+        if int(acting_age) < 0: 
+            print("{0} is probably too young ({1}) to act in the movie {2}".format(actor, acting_age, movie))
+        else: 
+            if actor not in nodes:
+                nodes[actor] = {'label': label, 'type': 'ACTOR', 'year': actor_birth_year}
         
-        edges = edges.append({'Source': actor, 'Target': movie, 'category': 'is_acting', 'age': acting_age }, ignore_index=True)       
+            edges = edges.append({'Source': actor, 'Target': movie, 'category': 'is_acting', 'age': acting_age }, ignore_index=True)       
 
     return nodes, edges
 

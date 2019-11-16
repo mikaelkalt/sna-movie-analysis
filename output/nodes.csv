@@ -1,7 +1,7 @@
 ID,label,type,year,duration,genre,genre_label
 http://www.wikidata.org/entity/Q1004531,Bullets Over Broadway,MOVIE,1994,98,"http://www.wikidata.org/entity/Q157443, http://www.wikidata.org/entity/Q3745430, http://www.wikidata.org/entity/Q7444356","comedy film, satirical film, gangster film"
 http://www.wikidata.org/entity/Q25089,Woody Allen,DIRECTOR,1935,,,
-http://www.wikidata.org/entity/Q103474,2001: A Space Odyssey,MOVIE,1968,143,"http://www.wikidata.org/entity/Q66914288, http://www.wikidata.org/entity/Q319221, http://www.wikidata.org/entity/Q652256, http://www.wikidata.org/entity/Q1200678, http://www.wikidata.org/entity/Q2484376, http://www.wikidata.org/entity/Q52162262","space adventure film, adventure film, epic film, mystery film, thriller film, film based on literature"
+http://www.wikidata.org/entity/Q103474,2001: A Space Odyssey,MOVIE,1968,143,"http://www.wikidata.org/entity/Q652256, http://www.wikidata.org/entity/Q1200678, http://www.wikidata.org/entity/Q2484376, http://www.wikidata.org/entity/Q52162262, http://www.wikidata.org/entity/Q66914288, http://www.wikidata.org/entity/Q319221","epic film, mystery film, thriller film, film based on literature, space adventure film, adventure film"
 http://www.wikidata.org/entity/Q2001,Stanley Kubrick,DIRECTOR,1928,,,
 http://www.wikidata.org/entity/Q103569,Alien,MOVIE,1979,117,"http://www.wikidata.org/entity/Q200092, http://www.wikidata.org/entity/Q471839","horror film, science fiction film"
 http://www.wikidata.org/entity/Q56005,Ridley Scott,DIRECTOR,1937,,,
@@ -34,7 +34,7 @@ http://www.wikidata.org/entity/Q107226,The Bourne Ultimatum,MOVIE,2007,111,"http
 http://www.wikidata.org/entity/Q356275,Paul Greengrass,DIRECTOR,1955,,,
 http://www.wikidata.org/entity/Q107270,Lost in Translation,MOVIE,2003,97,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q459290, http://www.wikidata.org/entity/Q860626","drama film, independent film, romantic comedy"
 http://www.wikidata.org/entity/Q193628,Sofia Coppola,DIRECTOR,1971,,,
-http://www.wikidata.org/entity/Q107724,Thunderball,MOVIE,1965,130,"http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q2297927, http://www.wikidata.org/entity/Q2484376, http://www.wikidata.org/entity/Q52162262","action film, spy film, thriller film, film based on literature"
+http://www.wikidata.org/entity/Q107724,Thunderball,MOVIE,1965,130,"http://www.wikidata.org/entity/Q2297927, http://www.wikidata.org/entity/Q2484376, http://www.wikidata.org/entity/Q52162262, http://www.wikidata.org/entity/Q188473","spy film, thriller film, film based on literature, action film"
 http://www.wikidata.org/entity/Q314882,Terence Young,DIRECTOR,1915,,,
 http://www.wikidata.org/entity/Q1077902,Street Angel,MOVIE,1928,102,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q226730, http://www.wikidata.org/entity/Q1054574","drama film, silent film, romance film"
 http://www.wikidata.org/entity/Q369190,Frank Borzage,DIRECTOR,1894,,,
@@ -48,7 +48,7 @@ http://www.wikidata.org/entity/Q298388,Noël Coward,DIRECTOR,1899,,,
 http://www.wikidata.org/entity/Q55260,David Lean,DIRECTOR,1908,,,
 http://www.wikidata.org/entity/Q1089809,Min and Bill,MOVIE,1930,66,http://www.wikidata.org/entity/Q859369,comedy-drama
 http://www.wikidata.org/entity/Q349518,George W. Hill,DIRECTOR,1895,,,
-http://www.wikidata.org/entity/Q1094020,City Slickers,MOVIE,1991,105,"http://www.wikidata.org/entity/Q859369, http://www.wikidata.org/entity/Q157443, http://www.wikidata.org/entity/Q172980, http://www.wikidata.org/entity/Q663106","comedy-drama, comedy film, Western film, buddy film"
+http://www.wikidata.org/entity/Q1094020,City Slickers,MOVIE,1991,105,"http://www.wikidata.org/entity/Q157443, http://www.wikidata.org/entity/Q172980, http://www.wikidata.org/entity/Q663106, http://www.wikidata.org/entity/Q859369","comedy film, Western film, buddy film, comedy-drama"
 http://www.wikidata.org/entity/Q1303837,Ron Underwood,DIRECTOR,1953,,,
 http://www.wikidata.org/entity/Q1100552,Cleopatra,MOVIE,1934,100,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q652256","drama film, biographical film, epic film"
 http://www.wikidata.org/entity/Q72267,Cecil B. DeMille,DIRECTOR,1881,,,
@@ -59,7 +59,7 @@ http://www.wikidata.org/entity/Q1113303,The War of the Worlds,MOVIE,1953,82,"htt
 http://www.wikidata.org/entity/Q1018614,Byron Haskin,DIRECTOR,1899,,,
 http://www.wikidata.org/entity/Q1113987,Tender Mercies,MOVIE,1983,89,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q842256","drama film, musical film"
 http://www.wikidata.org/entity/Q449220,Bruce Beresford,DIRECTOR,1940,,,
-http://www.wikidata.org/entity/Q1114683,Coming Home,MOVIE,1978,128,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q7210294","drama film, war film, romance film, political drama"
+http://www.wikidata.org/entity/Q1114683,Coming Home,MOVIE,1978,128,"http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q7210294, http://www.wikidata.org/entity/Q130232","war film, romance film, political drama, drama film"
 http://www.wikidata.org/entity/Q358370,Hal Ashby,DIRECTOR,1929,,,
 http://www.wikidata.org/entity/Q1124875,Monster's Ball,MOVIE,2001,111,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q191489, http://www.wikidata.org/entity/Q1054574","drama film, melodrama, romance film"
 http://www.wikidata.org/entity/Q28497,Marc Forster,DIRECTOR,1969,,,
@@ -88,7 +88,7 @@ http://www.wikidata.org/entity/Q1140611,Wuthering Heights,MOVIE,1939,99,"http://
 http://www.wikidata.org/entity/Q51495,William Wyler,DIRECTOR,1902,,,
 http://www.wikidata.org/entity/Q1140881,Cromwell,MOVIE,1970,141,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q542475, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q652256, http://www.wikidata.org/entity/Q7168625","drama film, war film, costume drama, biographical film, epic film, historical period drama"
 http://www.wikidata.org/entity/Q1361382,Ken Hughes,DIRECTOR,1922,,,
-http://www.wikidata.org/entity/Q114115,Henry V,MOVIE,1989,137,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q542475, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q652256, http://www.wikidata.org/entity/Q7168625, http://www.wikidata.org/entity/Q52162262","drama film, action film, war film, costume drama, biographical film, epic film, historical period drama, film based on literature"
+http://www.wikidata.org/entity/Q114115,Henry V,MOVIE,1989,137,"http://www.wikidata.org/entity/Q652256, http://www.wikidata.org/entity/Q7168625, http://www.wikidata.org/entity/Q52162262, http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q542475, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q188473","epic film, historical period drama, film based on literature, war film, costume drama, biographical film, drama film, action film"
 http://www.wikidata.org/entity/Q55294,Kenneth Branagh,DIRECTOR,1960,,,
 http://www.wikidata.org/entity/Q1141186,Kolja,MOVIE,1996,101,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q157443","drama film, comedy film"
 http://www.wikidata.org/entity/Q504463,Jan Svěrák,DIRECTOR,1965,,,
@@ -190,10 +190,8 @@ http://www.wikidata.org/entity/Q1200672,Design for Death,MOVIE,1947,48,http://ww
 http://www.wikidata.org/entity/Q262735,Richard Fleischer,DIRECTOR,1916,,,
 http://www.wikidata.org/entity/Q1209853,Dick Tracy,MOVIE,1990,103,"http://www.wikidata.org/entity/Q157443, http://www.wikidata.org/entity/Q959790, http://www.wikidata.org/entity/Q2678111","comedy film, crime film, action comedy film"
 http://www.wikidata.org/entity/Q95030,Warren Beatty,DIRECTOR,1937,,,
-http://www.wikidata.org/entity/Q1210973,Reversal of Fortune,MOVIE,1990,112,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q1200678, http://www.wikidata.org/entity/Q3072039","drama film, biographical film, mystery film, trial film"
+http://www.wikidata.org/entity/Q1210973,Reversal of Fortune,MOVIE,1990,112,"http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q1200678, http://www.wikidata.org/entity/Q3072039, http://www.wikidata.org/entity/Q130232","biographical film, mystery film, trial film, drama film"
 http://www.wikidata.org/entity/Q504627,Barbet Schroeder,DIRECTOR,1941,,,
-http://www.wikidata.org/entity/Q1211819,The Buddy Holly Story,MOVIE,1978,113,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q842256","drama film, biographical film, musical film"
-http://www.wikidata.org/entity/Q2632767,Steve Rash,DIRECTOR,2000,,,
 http://www.wikidata.org/entity/Q1211833,The Cove,MOVIE,2009,90,http://www.wikidata.org/entity/Q93204,documentary film
 http://www.wikidata.org/entity/Q1859686,Louie Psihoyos,DIRECTOR,1957,,,
 http://www.wikidata.org/entity/Q12125059,In the Region of Ice,MOVIE,1976,37,http://www.wikidata.org/entity/Q130232,drama film
@@ -201,7 +199,7 @@ http://www.wikidata.org/entity/Q3376961,Peter Werner,DIRECTOR,1947,,,
 http://www.wikidata.org/entity/Q12125696,Lieberman in Love,MOVIE,1995,39,http://www.wikidata.org/entity/Q459290,independent film
 http://www.wikidata.org/entity/Q232941,Christine Lahti,DIRECTOR,1950,,,
 http://www.wikidata.org/entity/Q1212587,Woman of the Year,MOVIE,1942,113,http://www.wikidata.org/entity/Q860626,romantic comedy
-http://www.wikidata.org/entity/Q1214560,Adventures of Don Juan,MOVIE,1948,110,"http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q319221","romance film, action film, adventure film"
+http://www.wikidata.org/entity/Q1214560,Adventures of Don Juan,MOVIE,1948,110,"http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q319221, http://www.wikidata.org/entity/Q1054574","action film, adventure film, romance film"
 http://www.wikidata.org/entity/Q1972350,Vincent Sherman,DIRECTOR,1906,,,
 http://www.wikidata.org/entity/Q1215865,Kiss of the Spider Woman,MOVIE,1985,124,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q459290, http://www.wikidata.org/entity/Q586250, http://www.wikidata.org/entity/Q20442589, http://www.wikidata.org/entity/Q52162262","drama film, independent film, prison film, LGBT-related film, film based on literature"
 http://www.wikidata.org/entity/Q538608,Héctor Babenco,DIRECTOR,1946,,,
@@ -219,7 +217,7 @@ http://www.wikidata.org/entity/Q72229,Edward Dmytryk,DIRECTOR,1908,,,
 http://www.wikidata.org/entity/Q1218959,The Last Picture Show,MOVIE,1971,118,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q2975633, http://www.wikidata.org/entity/Q52162262","drama film, coming-of-age story, film based on literature"
 http://www.wikidata.org/entity/Q158250,Peter Bogdanovich,DIRECTOR,1939,,,
 http://www.wikidata.org/entity/Q1219026,The Merry Widow,MOVIE,1934,99,"http://www.wikidata.org/entity/Q842256, http://www.wikidata.org/entity/Q860626","musical film, romantic comedy"
-http://www.wikidata.org/entity/Q1219153,La historia oficial,MOVIE,1985,110,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q17013749","drama film, historical film"
+http://www.wikidata.org/entity/Q1219153,La historia oficial,MOVIE,1985,112,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q17013749","drama film, historical film"
 http://www.wikidata.org/entity/Q611429,Luis Puenzo,DIRECTOR,1946,,,
 http://www.wikidata.org/entity/Q1219171,Fantastic Voyage,MOVIE,1966,101,"http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q471839","action film, science fiction film"
 http://www.wikidata.org/entity/Q1225068,Into the Arms of Strangers: Stories of the Kindertransport,MOVIE,2000,122,"http://www.wikidata.org/entity/Q93204, http://www.wikidata.org/entity/Q369747","documentary film, war film"
@@ -239,7 +237,7 @@ http://www.wikidata.org/entity/Q1263921,Annie Get Your Gun,MOVIE,1950,107,"http:
 http://www.wikidata.org/entity/Q503258,Busby Berkeley,DIRECTOR,1895,,,
 http://www.wikidata.org/entity/Q630981,George Sidney,DIRECTOR,1916,,,
 http://www.wikidata.org/entity/Q953753,Charles Walters,DIRECTOR,1911,,,
-http://www.wikidata.org/entity/Q127367,The Lord of the Rings: The Fellowship of the Ring,MOVIE,2001,208,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q157394, http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q319221","drama film, fantasy film, action film, adventure film"
+http://www.wikidata.org/entity/Q127367,The Lord of the Rings: The Fellowship of the Ring,MOVIE,2001,208,"http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q319221, http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q157394","action film, adventure film, drama film, fantasy film"
 http://www.wikidata.org/entity/Q4465,Peter Jackson,DIRECTOR,1961,,,
 http://www.wikidata.org/entity/Q1282209,Great Expectations,MOVIE,1946,118,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q52162262","drama film, film based on literature"
 http://www.wikidata.org/entity/Q128518,Gladiator,MOVIE,2000,155,"http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q1433443, http://www.wikidata.org/entity/Q1919632","action film, peplum film genre, melodrama"
@@ -274,7 +272,7 @@ http://www.wikidata.org/entity/Q131074,The Lord of the Rings: The Return of the 
 http://www.wikidata.org/entity/Q131864,Dr. Seuss' How the Grinch Stole Christmas,MOVIE,2000,101,"http://www.wikidata.org/entity/Q157394, http://www.wikidata.org/entity/Q157443, http://www.wikidata.org/entity/Q319221, http://www.wikidata.org/entity/Q842256, http://www.wikidata.org/entity/Q1361932, http://www.wikidata.org/entity/Q2143665, http://www.wikidata.org/entity/Q28026639, http://www.wikidata.org/entity/Q52162262","fantasy film, comedy film, adventure film, musical film, family film, children's film, Christmas film, film based on literature"
 http://www.wikidata.org/entity/Q1321622,Yankee Doodle Dandy,MOVIE,1942,126,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q842256","drama film, war film, biographical film, musical film"
 http://www.wikidata.org/entity/Q1323132,A Passage to India,MOVIE,1984,163,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q52162262","drama film, film based on literature"
-http://www.wikidata.org/entity/Q1323446,Children of a Lesser God,MOVIE,1986,119,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q1054574","drama film, romance film"
+http://www.wikidata.org/entity/Q1323446,Children of a Lesser God,MOVIE,1986,119,"http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q130232","romance film, drama film"
 http://www.wikidata.org/entity/Q2536001,Randa Haines,DIRECTOR,1945,,,
 http://www.wikidata.org/entity/Q132351,The Usual Suspects,MOVIE,1995,106,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q186424, http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q496523, http://www.wikidata.org/entity/Q1200678, http://www.wikidata.org/entity/Q2421031, http://www.wikidata.org/entity/Q2484376, http://www.wikidata.org/entity/Q21401869","drama film, detective fiction, action film, heist film, mystery film, neo-noir, thriller film, flashback film"
 http://www.wikidata.org/entity/Q220751,Bryan Singer,DIRECTOR,1965,,,
@@ -306,7 +304,7 @@ http://www.wikidata.org/entity/Q13417189,Interstellar,MOVIE,2014,169,"http://www
 http://www.wikidata.org/entity/Q25191,Christopher Nolan,DIRECTOR,1970,,,
 http://www.wikidata.org/entity/Q1345583,The Bad and the Beautiful,MOVIE,1952,116,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q21401869","drama film, flashback film"
 http://www.wikidata.org/entity/Q51535,Vincente Minnelli,DIRECTOR,1903,,,
-http://www.wikidata.org/entity/Q1346566,"Now, Voyager",MOVIE,1942,117,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q52162262","drama film, romance film, film based on literature"
+http://www.wikidata.org/entity/Q1346566,"Now, Voyager",MOVIE,1942,117,"http://www.wikidata.org/entity/Q52162262, http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q1054574","film based on literature, drama film, romance film"
 http://www.wikidata.org/entity/Q323243,Irving Rapper,DIRECTOR,1898,,,
 http://www.wikidata.org/entity/Q1346590,Mon oncle,MOVIE,1958,117,http://www.wikidata.org/entity/Q157443,comedy film
 http://www.wikidata.org/entity/Q51549,Jacques Tati,DIRECTOR,1907,,,
@@ -317,7 +315,7 @@ http://www.wikidata.org/entity/Q1351911,Fame,MOVIE,1980,134,"http://www.wikidata
 http://www.wikidata.org/entity/Q271284,Alan Parker,DIRECTOR,1944,,,
 http://www.wikidata.org/entity/Q1352930,Volver a empezar,MOVIE,1982,87,http://www.wikidata.org/entity/Q130232,drama film
 http://www.wikidata.org/entity/Q1367078,José Luis Garci,DIRECTOR,1944,,,
-http://www.wikidata.org/entity/Q1353441,All That Jazz,MOVIE,1979,123,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q842256, http://www.wikidata.org/entity/Q21401869","drama film, biographical film, musical film, flashback film"
+http://www.wikidata.org/entity/Q1353441,All That Jazz,MOVIE,1979,123,"http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q842256, http://www.wikidata.org/entity/Q21401869, http://www.wikidata.org/entity/Q130232","biographical film, musical film, flashback film, drama film"
 http://www.wikidata.org/entity/Q313256,Bob Fosse,DIRECTOR,1927,,,
 http://www.wikidata.org/entity/Q1354109,Mighty Aphrodite,MOVIE,1995,95,"http://www.wikidata.org/entity/Q157443, http://www.wikidata.org/entity/Q599558","comedy film, erotic film"
 http://www.wikidata.org/entity/Q1355901,Exodus,MOVIE,1960,208,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q52162262","drama film, action film, war film, film based on literature"
@@ -380,7 +378,7 @@ http://www.wikidata.org/entity/Q1471671,King Solomon's Mines,MOVIE,1950,98,"http
 http://www.wikidata.org/entity/Q466415,Compton Bennett,DIRECTOR,1900,,,
 http://www.wikidata.org/entity/Q506183,Andrew Marton,DIRECTOR,1904,,,
 http://www.wikidata.org/entity/Q1483683,Underworld,MOVIE,1927,105,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q226730, http://www.wikidata.org/entity/Q959790","drama film, silent film, crime film"
-http://www.wikidata.org/entity/Q14918344,The Imitation Game,MOVIE,2014,113,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q1257444, http://www.wikidata.org/entity/Q17013749, http://www.wikidata.org/entity/Q20442589","drama film, war film, biographical film, film adaptation, historical film, LGBT-related film"
+http://www.wikidata.org/entity/Q14918344,The Imitation Game,MOVIE,2014,113,"http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q1257444, http://www.wikidata.org/entity/Q17013749, http://www.wikidata.org/entity/Q20442589, http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q369747","biographical film, film adaptation, historical film, LGBT-related film, drama film, war film"
 http://www.wikidata.org/entity/Q3425142,Morten Tyldum,DIRECTOR,1967,,,
 http://www.wikidata.org/entity/Q1494865,Born into Brothels,MOVIE,2004,85,http://www.wikidata.org/entity/Q93204,documentary film
 http://www.wikidata.org/entity/Q146051,Zana Briski,DIRECTOR,1966,,,
@@ -481,11 +479,11 @@ http://www.wikidata.org/entity/Q16354843,Still Alice,MOVIE,2014,101,http://www.w
 http://www.wikidata.org/entity/Q455482,Wash Westmoreland,DIRECTOR,1966,,,
 http://www.wikidata.org/entity/Q6047738,Richard Glatzer,DIRECTOR,1952,,,
 http://www.wikidata.org/entity/Q1637967,That Hamilton Woman,MOVIE,1941,108,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928","drama film, biographical film"
-http://www.wikidata.org/entity/Q163872,The Dark Knight,MOVIE,2008,153,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q182015, http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q959790, http://www.wikidata.org/entity/Q1535153, http://www.wikidata.org/entity/Q2421031, http://www.wikidata.org/entity/Q19367312","drama film, thriller, action film, crime film, superhero film, neo-noir, crime thriller"
+http://www.wikidata.org/entity/Q163872,The Dark Knight,MOVIE,2008,153,"http://www.wikidata.org/entity/Q182015, http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q959790, http://www.wikidata.org/entity/Q1535153, http://www.wikidata.org/entity/Q2421031, http://www.wikidata.org/entity/Q19367312, http://www.wikidata.org/entity/Q130232","thriller, action film, crime film, superhero film, neo-noir, crime thriller, drama film"
 http://www.wikidata.org/entity/Q1640553,Mighty Joe Young,MOVIE,1949,94,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q157394, http://www.wikidata.org/entity/Q200092, http://www.wikidata.org/entity/Q471839","drama film, fantasy film, horror film, science fiction film"
 http://www.wikidata.org/entity/Q1117163,Ernest B. Schoedsack,DIRECTOR,1893,,,
 http://www.wikidata.org/entity/Q164103,A Beautiful Mind,MOVIE,2001,135,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q52162262","drama film, biographical film, film based on literature"
-http://www.wikidata.org/entity/Q164963,The Lord of the Rings: The Two Towers,MOVIE,2002,179,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q157394, http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q52162262","drama film, fantasy film, action film, film based on literature"
+http://www.wikidata.org/entity/Q164963,The Lord of the Rings: The Two Towers,MOVIE,2002,179,"http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q52162262, http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q157394","action film, film based on literature, drama film, fantasy film"
 http://www.wikidata.org/entity/Q165172,One Hundred Men and a Girl,MOVIE,1937,84,"http://www.wikidata.org/entity/Q157443, http://www.wikidata.org/entity/Q842256","comedy film, musical film"
 http://www.wikidata.org/entity/Q165392,Gosford Park,MOVIE,2001,137,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q157443, http://www.wikidata.org/entity/Q959790, http://www.wikidata.org/entity/Q1200678","drama film, comedy film, crime film, mystery film"
 http://www.wikidata.org/entity/Q55163,Robert Altman,DIRECTOR,1925,,,
@@ -512,10 +510,10 @@ http://www.wikidata.org/entity/Q16970789,American Sniper,MOVIE,2014,132,"http://
 http://www.wikidata.org/entity/Q170035,Ratatouille,MOVIE,2007,111,"http://www.wikidata.org/entity/Q663106, http://www.wikidata.org/entity/Q2975633, http://www.wikidata.org/entity/Q21401869","buddy film, coming-of-age story, flashback film"
 http://www.wikidata.org/entity/Q1455793,Jan Pinkava,DIRECTOR,1963,,,
 http://www.wikidata.org/entity/Q310960,Brad Bird,DIRECTOR,1957,,,
-http://www.wikidata.org/entity/Q170564,Terminator 2: Judgment Day,MOVIE,1991,137,"http://www.wikidata.org/entity/Q20443008, http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q471839, http://www.wikidata.org/entity/Q1341051, http://www.wikidata.org/entity/Q2484376","dystopian film, drama film, action film, science fiction film, post-apocalyptic film, thriller film"
+http://www.wikidata.org/entity/Q170564,Terminator 2: Judgment Day,MOVIE,1991,137,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q471839, http://www.wikidata.org/entity/Q1341051, http://www.wikidata.org/entity/Q2484376, http://www.wikidata.org/entity/Q20443008","drama film, action film, science fiction film, post-apocalyptic film, thriller film, dystopian film"
 http://www.wikidata.org/entity/Q171669,One Flew Over the Cuckoo's Nest,MOVIE,1975,133,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q157443, http://www.wikidata.org/entity/Q586250, http://www.wikidata.org/entity/Q1786567, http://www.wikidata.org/entity/Q52162262","drama film, comedy film, prison film, medical drama, film based on literature"
 http://www.wikidata.org/entity/Q51525,Miloš Forman,DIRECTOR,1932,,,
-http://www.wikidata.org/entity/Q171861,The Artist,MOVIE,2011,100,"http://www.wikidata.org/entity/Q157443, http://www.wikidata.org/entity/Q226730, http://www.wikidata.org/entity/Q859369, http://www.wikidata.org/entity/Q860626, http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q130232","comedy film, silent film, comedy-drama, romantic comedy, romance film, drama film"
+http://www.wikidata.org/entity/Q171861,The Artist,MOVIE,2011,100,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q157443, http://www.wikidata.org/entity/Q226730, http://www.wikidata.org/entity/Q859369, http://www.wikidata.org/entity/Q860626, http://www.wikidata.org/entity/Q1054574","drama film, comedy film, silent film, comedy-drama, romantic comedy, romance film"
 http://www.wikidata.org/entity/Q28556,Michel Hazanavicius,DIRECTOR,1967,,,
 http://www.wikidata.org/entity/Q1722396,With Byrd at the South Pole,MOVIE,,,,
 http://www.wikidata.org/entity/Q172975,The Departed,MOVIE,2006,152,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q19367312","drama film, crime thriller"
@@ -719,7 +717,7 @@ http://www.wikidata.org/entity/Q346595,Jonathan Frakes,DIRECTOR,1952,,,
 http://www.wikidata.org/entity/Q221249,Tootsie,MOVIE,1982,112,"http://www.wikidata.org/entity/Q859369, http://www.wikidata.org/entity/Q860626, http://www.wikidata.org/entity/Q20442589","comedy-drama, romantic comedy, LGBT-related film"
 http://www.wikidata.org/entity/Q221384,Black Hawk Down,MOVIE,2001,143,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q52162262","drama film, action film, war film, film based on literature"
 http://www.wikidata.org/entity/Q221586,Mystic River,MOVIE,2003,138,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q1200678, http://www.wikidata.org/entity/Q19367312, http://www.wikidata.org/entity/Q52162262","drama film, mystery film, crime thriller, film based on literature"
-http://www.wikidata.org/entity/Q221594,As Good as It Gets,MOVIE,1997,133,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q157443, http://www.wikidata.org/entity/Q859369, http://www.wikidata.org/entity/Q860626, http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q20442589","drama film, comedy film, comedy-drama, romantic comedy, romance film, LGBT-related film"
+http://www.wikidata.org/entity/Q221594,As Good as It Gets,MOVIE,1997,133,"http://www.wikidata.org/entity/Q859369, http://www.wikidata.org/entity/Q860626, http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q20442589, http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q157443","comedy-drama, romantic comedy, romance film, LGBT-related film, drama film, comedy film"
 http://www.wikidata.org/entity/Q222720,Fargo,MOVIE,1996,98,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q959790, http://www.wikidata.org/entity/Q2421031, http://www.wikidata.org/entity/Q2484376, http://www.wikidata.org/entity/Q5778924","drama film, crime film, neo-noir, thriller film, black comedy film"
 http://www.wikidata.org/entity/Q223043,A Patch of Blue,MOVIE,1965,105,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q2975633","drama film, romance film, coming-of-age story"
 http://www.wikidata.org/entity/Q707321,Guy Green,DIRECTOR,1913,,,
@@ -727,8 +725,6 @@ http://www.wikidata.org/entity/Q223367,The Queen,MOVIE,2006,97,"http://www.wikid
 http://www.wikidata.org/entity/Q55258,Stephen Frears,DIRECTOR,1941,,,
 http://www.wikidata.org/entity/Q22344480,فروشنده,MOVIE,2016,125,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q2254193","drama film, rape and revenge film"
 http://www.wikidata.org/entity/Q334242,Asghar Farhadi,DIRECTOR,1972,,,
-http://www.wikidata.org/entity/Q2238172,Maya Lin: A Strong Clear Vision,MOVIE,1994,105,http://www.wikidata.org/entity/Q93204,documentary film
-http://www.wikidata.org/entity/Q950808,Freida Lee Mock,DIRECTOR,2000,,,
 http://www.wikidata.org/entity/Q2247847,Body and Soul,MOVIE,1947,104,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q185867, http://www.wikidata.org/entity/Q1339864","drama film, film noir, sports film"
 http://www.wikidata.org/entity/Q2250908,In the Shadow of the Stars,MOVIE,1991,93,http://www.wikidata.org/entity/Q93204,documentary film
 http://www.wikidata.org/entity/Q1364870,Irving Saraf,DIRECTOR,1932,,,
@@ -765,7 +761,7 @@ http://www.wikidata.org/entity/Q2422817,Tin Pan Alley,MOVIE,1940,94,"http://www.
 http://www.wikidata.org/entity/Q269796,Walter Lang,DIRECTOR,1896,,,
 http://www.wikidata.org/entity/Q244315,There Will Be Blood,MOVIE,2007,158,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q52162262","drama film, film based on literature"
 http://www.wikidata.org/entity/Q25132,Paul Thomas Anderson,DIRECTOR,1970,,,
-http://www.wikidata.org/entity/Q244448,How Green Was My Valley,MOVIE,1941,118,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q52162262","drama film, film based on literature"
+http://www.wikidata.org/entity/Q244448,How Green Was My Valley,MOVIE,1941,118,"http://www.wikidata.org/entity/Q52162262, http://www.wikidata.org/entity/Q130232","film based on literature, drama film"
 http://www.wikidata.org/entity/Q244865,Champion,MOVIE,1950,96,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q185867, http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q1339864","drama film, film noir, romance film, sports film"
 http://www.wikidata.org/entity/Q31225,Mark Robson,DIRECTOR,1913,,,
 http://www.wikidata.org/entity/Q245208,High Noon,MOVIE,1952,85,"http://www.wikidata.org/entity/Q172980, http://www.wikidata.org/entity/Q52162262","Western film, film based on literature"
@@ -829,7 +825,7 @@ http://www.wikidata.org/entity/Q273686,The Descendants,MOVIE,2011,115,"http://ww
 http://www.wikidata.org/entity/Q313566,Alexander Payne,DIRECTOR,1961,,,
 http://www.wikidata.org/entity/Q273704,West Side Story,MOVIE,1961,150,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q842256, http://www.wikidata.org/entity/Q959790, http://www.wikidata.org/entity/Q1054574","drama film, musical film, crime film, romance film"
 http://www.wikidata.org/entity/Q353019,Jerome Robbins,DIRECTOR,1918,,,
-http://www.wikidata.org/entity/Q273978,臥虎藏龍,MOVIE,2000,115,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q157394, http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q319221, http://www.wikidata.org/entity/Q1033891, http://www.wikidata.org/entity/Q1054574","drama film, fantasy film, action film, adventure film, martial arts film, romance film"
+http://www.wikidata.org/entity/Q273978,臥虎藏龍,MOVIE,2000,115,"http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q157394, http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q319221, http://www.wikidata.org/entity/Q1033891","romance film, drama film, fantasy film, action film, adventure film, martial arts film"
 http://www.wikidata.org/entity/Q274167,The Exorcist,MOVIE,1973,122,"http://www.wikidata.org/entity/Q200092, http://www.wikidata.org/entity/Q52162262","horror film, film based on literature"
 http://www.wikidata.org/entity/Q275187,硫黄島からの手紙,MOVIE,2006,141,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q17013749","drama film, war film, historical film"
 http://www.wikidata.org/entity/Q2754902,The Long Way Home,MOVIE,1997,120,"http://www.wikidata.org/entity/Q93204, http://www.wikidata.org/entity/Q369747","documentary film, war film"
@@ -893,7 +889,7 @@ http://www.wikidata.org/entity/Q321561,Scent of a Woman,MOVIE,1992,150,"http://w
 http://www.wikidata.org/entity/Q363117,Martin Brest,DIRECTOR,1951,,,
 http://www.wikidata.org/entity/Q3227109,The Seventh Veil,MOVIE,1945,94,http://www.wikidata.org/entity/Q130232,drama film
 http://www.wikidata.org/entity/Q323472,The Fighter,MOVIE,2010,115,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q1339864","drama film, biographical film, sports film"
-http://www.wikidata.org/entity/Q323827,Doctor Zhivago,MOVIE,1965,197,"http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q52162262, http://www.wikidata.org/entity/Q130232","war film, romance film, film based on literature, drama film"
+http://www.wikidata.org/entity/Q323827,Doctor Zhivago,MOVIE,1965,197,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q52162262","drama film, war film, romance film, film based on literature"
 http://www.wikidata.org/entity/Q3241699,Murder on the Orient Express,MOVIE,1974,131,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q959790, http://www.wikidata.org/entity/Q1200678, http://www.wikidata.org/entity/Q52162262","drama film, crime film, mystery film, film based on literature"
 http://www.wikidata.org/entity/Q51559,Sidney Lumet,DIRECTOR,1924,,,
 http://www.wikidata.org/entity/Q325643,Who's Afraid of Virginia Woolf?,MOVIE,1966,131,http://www.wikidata.org/entity/Q130232,drama film
@@ -921,7 +917,7 @@ http://www.wikidata.org/entity/Q34905518,Icarus,MOVIE,2017,121,http://www.wikida
 http://www.wikidata.org/entity/Q4980101,Bryan Fogel,DIRECTOR,2000,,,
 http://www.wikidata.org/entity/Q3520498,Dallas Buyers Club,MOVIE,2013,117,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q20442589","drama film, biographical film, LGBT-related film"
 http://www.wikidata.org/entity/Q500611,Jean-Marc Vallée,DIRECTOR,1963,,,
-http://www.wikidata.org/entity/Q3521099,The Grand Budapest Hotel,MOVIE,2014,99,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q157443, http://www.wikidata.org/entity/Q319221, http://www.wikidata.org/entity/Q959790, http://www.wikidata.org/entity/Q1054574","drama film, comedy film, adventure film, crime film, romance film"
+http://www.wikidata.org/entity/Q3521099,The Grand Budapest Hotel,MOVIE,2014,99,"http://www.wikidata.org/entity/Q157443, http://www.wikidata.org/entity/Q319221, http://www.wikidata.org/entity/Q959790, http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q130232","comedy film, adventure film, crime film, romance film, drama film"
 http://www.wikidata.org/entity/Q223687,Wes Anderson,DIRECTOR,1969,,,
 http://www.wikidata.org/entity/Q3521745,The Man Who Skied Down Everest,MOVIE,1975,86,http://www.wikidata.org/entity/Q93204,documentary film
 http://www.wikidata.org/entity/Q933453,Lawrence Schiller,DIRECTOR,1936,,,
@@ -1035,7 +1031,7 @@ http://www.wikidata.org/entity/Q6758800,Marek Brodzki,DIRECTOR,1960,,,
 http://www.wikidata.org/entity/Q486591,Anastasia,MOVIE,1956,105,http://www.wikidata.org/entity/Q130232,drama film
 http://www.wikidata.org/entity/Q48673898,Green Book,MOVIE,2018,130,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q157443, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q859369","drama film, comedy film, biographical film, comedy-drama"
 http://www.wikidata.org/entity/Q1368300,Peter Farrelly,DIRECTOR,1956,,,
-http://www.wikidata.org/entity/Q488041,Witness,MOVIE,1985,112,"http://www.wikidata.org/entity/Q2484376, http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q959790","thriller film, drama film, crime film"
+http://www.wikidata.org/entity/Q488041,Witness,MOVIE,1985,112,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q959790, http://www.wikidata.org/entity/Q2484376","drama film, crime film, thriller film"
 http://www.wikidata.org/entity/Q494085,MASH,MOVIE,1970,116,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q859369, http://www.wikidata.org/entity/Q5778924, http://www.wikidata.org/entity/Q52162262","drama film, war film, comedy-drama, black comedy film, film based on literature"
 http://www.wikidata.org/entity/Q1452569,Fred Williamson,DIRECTOR,1938,,,
 http://www.wikidata.org/entity/Q494582,La Déchirure,MOVIE,1984,139,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q21010853","drama film, biographical film, drama"
@@ -1098,7 +1094,7 @@ http://www.wikidata.org/entity/Q572789,Morning Glory,MOVIE,1933,74,http://www.wi
 http://www.wikidata.org/entity/Q2058654,Lowell Sherman,DIRECTOR,1885,,,
 http://www.wikidata.org/entity/Q576371,Round Midnight,MOVIE,1986,133,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q842256, http://www.wikidata.org/entity/Q52162262","drama film, musical film, film based on literature"
 http://www.wikidata.org/entity/Q337226,Bertrand Tavernier,DIRECTOR,1941,,,
-http://www.wikidata.org/entity/Q577757,Gigi,MOVIE,1958,119,"http://www.wikidata.org/entity/Q52162262, http://www.wikidata.org/entity/Q842256, http://www.wikidata.org/entity/Q860626","film based on literature, musical film, romantic comedy"
+http://www.wikidata.org/entity/Q577757,Gigi,MOVIE,1958,119,"http://www.wikidata.org/entity/Q842256, http://www.wikidata.org/entity/Q860626, http://www.wikidata.org/entity/Q52162262","musical film, romantic comedy, film based on literature"
 http://www.wikidata.org/entity/Q581501,The Madness of King George,MOVIE,1994,109,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q157443, http://www.wikidata.org/entity/Q645928","drama film, comedy film, biographical film"
 http://www.wikidata.org/entity/Q967302,Nicholas Hytner,DIRECTOR,1956,,,
 http://www.wikidata.org/entity/Q581906,A River Runs Through It,MOVIE,1992,119,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q2975633","drama film, biographical film, coming-of-age story"
@@ -1200,7 +1196,7 @@ http://www.wikidata.org/entity/Q677033,La Diagonale du fou,MOVIE,1984,95,http://
 http://www.wikidata.org/entity/Q563542,Richard Dembo,DIRECTOR,1948,,,
 http://www.wikidata.org/entity/Q679746,The Goodbye Girl,MOVIE,1977,110,"http://www.wikidata.org/entity/Q859369, http://www.wikidata.org/entity/Q860626","comedy-drama, romantic comedy"
 http://www.wikidata.org/entity/Q683014,Il giardino dei Finzi-Contini,MOVIE,1970,89,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q52162262","drama film, film based on literature"
-http://www.wikidata.org/entity/Q684150,Cool Hand Luke,MOVIE,1967,123,"http://www.wikidata.org/entity/Q586250, http://www.wikidata.org/entity/Q52162262, http://www.wikidata.org/entity/Q130232","prison film, film based on literature, drama film"
+http://www.wikidata.org/entity/Q684150,Cool Hand Luke,MOVIE,1967,123,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q586250, http://www.wikidata.org/entity/Q52162262","drama film, prison film, film based on literature"
 http://www.wikidata.org/entity/Q966078,Stuart Rosenberg,DIRECTOR,1927,,,
 http://www.wikidata.org/entity/Q686533,Gods and Monsters,MOVIE,1998,105,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q20442589, http://www.wikidata.org/entity/Q52162262","drama film, biographical film, LGBT-related film, film based on literature"
 http://www.wikidata.org/entity/Q687040,Syriana,MOVIE,2005,128,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q622291, http://www.wikidata.org/entity/Q52162262","drama film, political thriller, film based on literature"
@@ -1210,7 +1206,7 @@ http://www.wikidata.org/entity/Q353117,Tony Gilroy,DIRECTOR,1956,,,
 http://www.wikidata.org/entity/Q696057,Around the World in 80 Days,MOVIE,1956,184,"http://www.wikidata.org/entity/Q157394, http://www.wikidata.org/entity/Q319221, http://www.wikidata.org/entity/Q2678111, http://www.wikidata.org/entity/Q52162262","fantasy film, adventure film, action comedy film, film based on literature"
 http://www.wikidata.org/entity/Q539685,Michael Anderson,DIRECTOR,1920,,,
 http://www.wikidata.org/entity/Q547495,John Farrow,DIRECTOR,1904,,,
-http://www.wikidata.org/entity/Q698962,The Glenn Miller Story,MOVIE,1954,115,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q842256","drama film, biographical film, musical film"
+http://www.wikidata.org/entity/Q698962,The Glenn Miller Story,MOVIE,1954,115,"http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q842256, http://www.wikidata.org/entity/Q130232","biographical film, musical film, drama film"
 http://www.wikidata.org/entity/Q269975,Anthony Mann,DIRECTOR,1906,,,
 http://www.wikidata.org/entity/Q7069549,Number Our Days,MOVIE,1976,28,http://www.wikidata.org/entity/Q93204,documentary film
 http://www.wikidata.org/entity/Q3736945,Lynne Littman,DIRECTOR,1941,,,
@@ -1242,13 +1238,13 @@ http://www.wikidata.org/entity/Q748851,El secreto de sus ojos,MOVIE,2009,129,"ht
 http://www.wikidata.org/entity/Q726925,Juan J. Campanella,DIRECTOR,1959,,,
 http://www.wikidata.org/entity/Q753107,Cavalcade,MOVIE,1933,110,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q369747","drama film, war film"
 http://www.wikidata.org/entity/Q753141,Jungfrukällan,MOVIE,1960,89,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q157394, http://www.wikidata.org/entity/Q959790, http://www.wikidata.org/entity/Q2254193","drama film, fantasy film, crime film, rape and revenge film"
-http://www.wikidata.org/entity/Q755171,The Young Victoria,MOVIE,2009,105,"http://www.wikidata.org/entity/Q1146335, http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q1054574","teen film, drama film, biographical film, romance film"
+http://www.wikidata.org/entity/Q755171,The Young Victoria,MOVIE,2009,105,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q1146335","drama film, biographical film, romance film, teen film"
 http://www.wikidata.org/entity/Q756882,Τα Κανόνια του Ναβαρόνε,MOVIE,1961,158,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q188473, http://www.wikidata.org/entity/Q319221, http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q52162262","drama film, action film, adventure film, war film, film based on literature"
 http://www.wikidata.org/entity/Q456979,J. Lee Thompson,DIRECTOR,1914,,,
 http://www.wikidata.org/entity/Q759322,The Razor's Edge,MOVIE,1946,145,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q185867, http://www.wikidata.org/entity/Q52162262","drama film, film noir, film based on literature"
 http://www.wikidata.org/entity/Q762649,The Music Man,MOVIE,1962,151,"http://www.wikidata.org/entity/Q842256, http://www.wikidata.org/entity/Q860626","musical film, romantic comedy"
 http://www.wikidata.org/entity/Q731760,Morton DaCosta,DIRECTOR,1914,,,
-http://www.wikidata.org/entity/Q764962,Somebody Up There Likes Me,MOVIE,1956,109,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q1339864","drama film, biographical film, sports film"
+http://www.wikidata.org/entity/Q764962,Somebody Up There Likes Me,MOVIE,1956,109,"http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q1339864, http://www.wikidata.org/entity/Q130232","biographical film, sports film, drama film"
 http://www.wikidata.org/entity/Q7655230,Sweet Bird of Youth,MOVIE,1962,120,http://www.wikidata.org/entity/Q130232,drama film
 http://www.wikidata.org/entity/Q76824,Cat Ballou,MOVIE,1965,95,"http://www.wikidata.org/entity/Q157443, http://www.wikidata.org/entity/Q172980, http://www.wikidata.org/entity/Q842256","comedy film, Western film, musical film"
 http://www.wikidata.org/entity/Q289055,Elliot Silverstein,DIRECTOR,1927,,,
@@ -1266,8 +1262,6 @@ http://www.wikidata.org/entity/Q776337,In Old Arizona,MOVIE,1928,95,http://www.w
 http://www.wikidata.org/entity/Q72756,Raoul Walsh,DIRECTOR,1887,,,
 http://www.wikidata.org/entity/Q776623,Les Dimanches de Ville d'Avray,MOVIE,1962,110,http://www.wikidata.org/entity/Q130232,drama film
 http://www.wikidata.org/entity/Q1384343,Serge Bourguignon,DIRECTOR,1928,,,
-http://www.wikidata.org/entity/Q7768397,The Ten-Year Lunch,MOVIE,1987,56,http://www.wikidata.org/entity/Q93204,documentary film
-http://www.wikidata.org/entity/Q4829042,Aviva Slesin,DIRECTOR,2000,,,
 http://www.wikidata.org/entity/Q780350,Viva Zapata!,MOVIE,1952,113,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q645928","drama film, war film, biographical film"
 http://www.wikidata.org/entity/Q780469,Yentl,MOVIE,1983,133,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q842256, http://www.wikidata.org/entity/Q20442589","drama film, musical film, LGBT-related film"
 http://www.wikidata.org/entity/Q4636,Barbra Streisand,DIRECTOR,1942,,,
@@ -1288,7 +1282,7 @@ http://www.wikidata.org/entity/Q1351492,Peter Glenville,DIRECTOR,1913,,,
 http://www.wikidata.org/entity/Q814343,Beginners,MOVIE,2010,105,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q860626, http://www.wikidata.org/entity/Q20442589","drama film, romantic comedy, LGBT-related film"
 http://www.wikidata.org/entity/Q724098,Mike Mills,DIRECTOR,1966,,,
 http://www.wikidata.org/entity/Q817159,All the King's Men,MOVIE,1950,109,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q185867, http://www.wikidata.org/entity/Q52162262","drama film, film noir, film based on literature"
-http://www.wikidata.org/entity/Q818710,Αλέξης Ζορμπάς,MOVIE,1964,142,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q842256, http://www.wikidata.org/entity/Q52162262","drama film, musical film, film based on literature"
+http://www.wikidata.org/entity/Q818710,Zorba the Greek,MOVIE,1964,142,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q842256, http://www.wikidata.org/entity/Q52162262","drama film, musical film, film based on literature"
 http://www.wikidata.org/entity/Q315374,Michael Cacoyannis,DIRECTOR,1922,,,
 http://www.wikidata.org/entity/Q826494,Shine,MOVIE,1996,105,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q842256","drama film, biographical film, musical film"
 http://www.wikidata.org/entity/Q951522,Scott Hicks,DIRECTOR,1953,,,
@@ -1402,11 +1396,11 @@ http://www.wikidata.org/entity/Q26644,What Ever Happened to Baby Jane?,MOVIE,196
 http://www.wikidata.org/entity/Q27149,The King and I,MOVIE,1956,133,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q842256, http://www.wikidata.org/entity/Q1054574","drama film, musical film, romance film"
 http://www.wikidata.org/entity/Q27178,Hamlet,MOVIE,1948,150,http://www.wikidata.org/entity/Q130232,drama film
 http://www.wikidata.org/entity/Q55245,Laurence Olivier,DIRECTOR,1907,,,
-http://www.wikidata.org/entity/Q28234,Les Misérables,MOVIE,2012,158,"http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q52162262, http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q842256","romance film, film based on literature, drama film, musical film"
+http://www.wikidata.org/entity/Q28234,Les Misérables,MOVIE,2012,158,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q842256, http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q52162262","drama film, musical film, romance film, film based on literature"
 http://www.wikidata.org/entity/Q2875,Gone with the Wind,MOVIE,1939,238,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q1054574, http://www.wikidata.org/entity/Q17013749, http://www.wikidata.org/entity/Q52162262","drama film, war film, romance film, historical film, film based on literature"
 http://www.wikidata.org/entity/Q31971,Reap the Wild Wind,MOVIE,1942,123,http://www.wikidata.org/entity/Q319221,adventure film
 http://www.wikidata.org/entity/Q32011,On the Town,MOVIE,1950,96,http://www.wikidata.org/entity/Q842256,musical film
-http://www.wikidata.org/entity/Q32433,Lincoln,MOVIE,2012,150,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q3072039, http://www.wikidata.org/entity/Q52162262","drama film, war film, biographical film, trial film, film based on literature"
+http://www.wikidata.org/entity/Q32433,Lincoln,MOVIE,2012,150,"http://www.wikidata.org/entity/Q3072039, http://www.wikidata.org/entity/Q52162262, http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q369747, http://www.wikidata.org/entity/Q645928","trial film, film based on literature, drama film, war film, biographical film"
 http://www.wikidata.org/entity/Q35738,Frida,MOVIE,2002,123,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q20442589","drama film, biographical film, LGBT-related film"
 http://www.wikidata.org/entity/Q240490,Julie Taymor,DIRECTOR,1952,,,
 http://www.wikidata.org/entity/Q42047,Goodfellas,MOVIE,1990,146,"http://www.wikidata.org/entity/Q130232, http://www.wikidata.org/entity/Q645928, http://www.wikidata.org/entity/Q959790, http://www.wikidata.org/entity/Q52162262","drama film, biographical film, crime film, film based on literature"
@@ -1548,11 +1542,9 @@ http://www.wikidata.org/entity/Q542048,Dorothée-Hermina Feinberg,ACTOR,1922,,,
 http://www.wikidata.org/entity/Q1353516,José Luis de Vilallonga Cabeza de Vaca,ACTOR,1920,,,
 http://www.wikidata.org/entity/Q181413,Julie Frances Christie,ACTOR,1940,,,
 http://www.wikidata.org/entity/Q299190,Derek Jules Gaspard Ulric Niven van den Bogaerde,ACTOR,1921,,,
-http://www.wikidata.org/entity/Q434354,Alexandra Virina Scott,ACTOR,1984,,,
 http://www.wikidata.org/entity/Q463023,Raymond Lovelock,ACTOR,1950,,,
 http://www.wikidata.org/entity/Q296491,George Henry Sanders,ACTOR,1906,,,
 http://www.wikidata.org/entity/Q336865,Philip St. John Basil Rathbone,ACTOR,1892,,,
-http://www.wikidata.org/entity/Q10598,David Benjamin James,ACTOR,1970,,,
 http://www.wikidata.org/entity/Q189490,Jennifer Shrader Lawrence,ACTOR,1990,,,
 http://www.wikidata.org/entity/Q138005,Michael John Douglas,ACTOR,1951,,,
 http://www.wikidata.org/entity/Q358345,William December Williams Jr.,ACTOR,1937,,,
@@ -1583,7 +1575,6 @@ http://www.wikidata.org/entity/Q145132,Spangler Arlington Brugh Taylor.,ACTOR,19
 http://www.wikidata.org/entity/Q3973321,Esteban Clemento Morro,ACTOR,1882,,,
 http://www.wikidata.org/entity/Q2658233,Clifford Tobin DeYoung,ACTOR,1945,,,
 http://www.wikidata.org/entity/Q2193862,Jan Hendrik Kraaijkamp,ACTOR,1925,,,
-http://www.wikidata.org/entity/Q272031,John Anthony Gillis,ACTOR,1975,,,
 http://www.wikidata.org/entity/Q4267490,Janette Lov,ACTOR,1906,,,
 http://www.wikidata.org/entity/Q470182,Paul Samuel Whiteman,ACTOR,1890,,,
 http://www.wikidata.org/entity/Q128532,Asa Yoelson,ACTOR,1886,,,
@@ -1702,7 +1693,7 @@ http://www.wikidata.org/entity/Q132616,Naomi Ellen Watts,ACTOR,1968,,,
 http://www.wikidata.org/entity/Q147077,Emily Jean Stone,ACTOR,1988,,,
 http://www.wikidata.org/entity/Q231203,Amy Beth Dziewiontkowski,ACTOR,1968,,,
 http://www.wikidata.org/entity/Q242504,Lindsay Vere Duncan,ACTOR,1950,,,
-http://www.wikidata.org/entity/Q3367717,Marie Thérèse Antoinette Pascale de Boysson,ACTOR,1932,,,
+http://www.wikidata.org/entity/Q3367717,Marie Thérèse Antoinette Pascale de Boysson,ACTOR,1922,,,
 http://www.wikidata.org/entity/Q76711,Nastassja Aglaia Nakszynski,ACTOR,1961,,,
 http://www.wikidata.org/entity/Q20972698,Oliver Prickett,ACTOR,1905,,,
 http://www.wikidata.org/entity/Q4864570,Alfredo C. Birabén,ACTOR,1905,,,
@@ -1726,7 +1717,6 @@ http://www.wikidata.org/entity/Q442791,Elsy Steinberg,ACTOR,1930,,,
 http://www.wikidata.org/entity/Q7306656,Reed Bert Herring,ACTOR,1911,,,
 http://www.wikidata.org/entity/Q3023086,Denise Perronne,ACTOR,1920,,,
 http://www.wikidata.org/entity/Q103157,Kurt Vogel Russell,ACTOR,1951,,,
-http://www.wikidata.org/entity/Q16239251,Emily Joanna Carey,ACTOR,2003,,,
 http://www.wikidata.org/entity/Q187033,Sally Margaret Field,ACTOR,1946,,,
 http://www.wikidata.org/entity/Q26857964,John Simpson Randall,ACTOR,1914,,,
 http://www.wikidata.org/entity/Q26857995,Alexander Francis Zemeckis,ACTOR,1985,,,
@@ -2104,7 +2094,6 @@ http://www.wikidata.org/entity/Q222833,Frederick Hubbard Gwynne,ACTOR,1926,,,
 http://www.wikidata.org/entity/Q270324,Patti Ann LuPone,ACTOR,1949,,,
 http://www.wikidata.org/entity/Q465442,Robert Peter Williams,ACTOR,1927,,,
 http://www.wikidata.org/entity/Q104000,Betty Joan Perske,ACTOR,1924,,,
-http://www.wikidata.org/entity/Q296047,Samuel Benjamin Harris,ACTOR,1967,,,
 http://www.wikidata.org/entity/Q722059,Walter Perry Johnson,ACTOR,1887,,,
 http://www.wikidata.org/entity/Q106481,Alan Sidney Patrick Rickman,ACTOR,1946,,,
 http://www.wikidata.org/entity/Q230534,Rebecca Maria Hall,ACTOR,1982,,,
@@ -2250,6 +2239,7 @@ http://www.wikidata.org/entity/Q5538333,George Dewey Wallace,ACTOR,1917,,,
 http://www.wikidata.org/entity/Q240233,Carol Diahann Johnson,ACTOR,1935,,,
 http://www.wikidata.org/entity/Q19526,maya angeloo,ACTOR,1928,,,
 http://www.wikidata.org/entity/Q498503,Wilfred Bailey Bixby,ACTOR,1934,,,
+http://www.wikidata.org/entity/Q272031,John Anthony Gillis,ACTOR,1975,,,
 http://www.wikidata.org/entity/Q1871905,Louis Neistadt,ACTOR,1913,,,
 http://www.wikidata.org/entity/Q94081,Leslie Townes Hope,ACTOR,1903,,,
 http://www.wikidata.org/entity/Q230681,Jean Dorothy Seberg,ACTOR,1938,,,
@@ -2411,7 +2401,6 @@ http://www.wikidata.org/entity/Q318312,Edward James Begley,ACTOR,1901,,,
 http://www.wikidata.org/entity/Q137042,Nathaniel Adams Coles,ACTOR,1919,,,
 http://www.wikidata.org/entity/Q373500,Etienne Pelissier Jacques de Bujac,ACTOR,1904,,,
 http://www.wikidata.org/entity/Q342430,Mark Addy Johnson,ACTOR,1964,,,
-http://www.wikidata.org/entity/Q29969078,Brian T. James,ACTOR,1942,,,
 http://www.wikidata.org/entity/Q3311202,Michel Alexandre Jean Lucien Gallieni,ACTOR,1925,,,
 http://www.wikidata.org/entity/Q437591,Marie France Anglade,ACTOR,1942,,,
 http://www.wikidata.org/entity/Q200355,Olivia Jane Cockburn,ACTOR,1984,,,
