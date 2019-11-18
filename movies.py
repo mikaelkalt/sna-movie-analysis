@@ -4,6 +4,12 @@ import pandas as pd
 
 sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 
+MANUEL_GENRE_MAPPING = { 
+    "http://www.wikidata.org/entity/Q622291": "http://www.wikidata.org/entity/Q2484376", # mapping of political thriller to thriller film 
+    "http://www.wikidata.org/entity/Q860626": "http://www.wikidata.org/entity/Q157443,http://www.wikidata.org/entity/Q1054574", # mapping of romantic comedy to comedy and romance films 
+    "http://www.wikidata.org/entity/Q859369": "http://www.wikidata.org/entity/Q157443,http://www.wikidata.org/entity/Q130232" # mapping of comedy-drama to comedy and drama films
+}
+
 LIMIT = 10000
 
 prefix = """
@@ -76,13 +82,30 @@ def fetch_data(query):
     sparql.setReturnFormat(JSON)
     return sparql.query().convert();
 
-def parse_movie_results(results, nodes, edges):
+
+def preprocess_genres(genres): 
+
+    for key, value in MANUEL_GENRE_MAPPING.items():
+        if key in genres: 
+            genres = genres.replace(key, value)
+
+    return genres
+
+
+def ohe_genres(genres_of_interest, genres): 
+    one_hot_encoded_genres = {}
+    genres = preprocess_genres(genres)
+
+    for genre_key, genre_name in genres_of_interest.items(): 
+        one_hot_encoded_genres[genre_name['label']] = genre_key in genres
+    return one_hot_encoded_genres 
+
+def parse_movie_results(results, nodes, edges, genres):
     for result in results["results"]["bindings"]:
         movie = result["movie"]["value"]
         label = result["name"]["value"]
-        genres = result["genres"]["value"]
-        genre_labels = result["genreLabels"]["value"]
-
+        one_hot_encoded_genres = ohe_genres(genres, result["genres"]["value"])
+ 
         if "director" in result:
             director = result["director"]["value"]
             director_label = result["directorLabel"]["value"]
@@ -95,7 +118,9 @@ def parse_movie_results(results, nodes, edges):
         if int(directing_age) < 0: 
             print("{0} is probably too young ({1}) to direct the movie {2}".format(director, directing_age, movie))
         else: 
-            nodes[movie] = {'label': label, 'type': 'MOVIE','genre': genres, 'genre_label': genre_labels, 'year': year, 'duration': duration}
+            movie_obj = {'label': label, 'type': 'MOVIE','year': year, 'duration': duration}
+            movie_obj.update(one_hot_encoded_genres)
+            nodes[movie] = movie_obj
         
             if director not in nodes:
                 nodes[director] = {'label': director_label, 'type': 'DIRECTOR', 'year': director_birth_year }
@@ -138,13 +163,14 @@ def write_csvs_edges(edges_df):
 if __name__ == "__main__":
     nodes = {}
     edges = pd.DataFrame(columns=['Source', 'Target'])
-    
+    genres_of_interest = pd.read_csv("output/top_genres.csv", encoding='utf-8', index_col='ID', usecols=['ID','label']).to_dict(orient='index')
+
     currentOffset = 0
     has_remaining_results = True
     while (has_remaining_results):
         query = build_movie_query(currentOffset)
         results = fetch_data(query)
-        nodes, edges = parse_movie_results(results, nodes, edges)
+        nodes, edges = parse_movie_results(results, nodes, edges, genres_of_interest)
         num_results = len(results["results"]["bindings"])
         if num_results == LIMIT:
             currentOffset += LIMIT
@@ -164,7 +190,7 @@ if __name__ == "__main__":
             has_remaining_results = False
 
 
-    pd_nodes = pd.DataFrame.from_dict(nodes, columns=['label','type', 'year', 'duration', 'genre', 'genre_label'], orient='index')
+    pd_nodes = pd.DataFrame.from_dict(nodes, columns=['label','type', 'year', 'duration'].extend(genres_of_interest.keys()), orient='index')
 
     edges = remove_duplicates(edges)
     write_csvs(pd_nodes)
