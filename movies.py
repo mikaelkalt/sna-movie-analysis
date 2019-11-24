@@ -4,7 +4,7 @@ import pandas as pd
 
 sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 
-MANUEL_GENRE_MAPPING = { 
+MANUAL_GENRE_MAPPING = { 
     "http://www.wikidata.org/entity/Q622291": "http://www.wikidata.org/entity/Q2484376", # mapping of political thriller to thriller film 
     "http://www.wikidata.org/entity/Q860626": "http://www.wikidata.org/entity/Q157443,http://www.wikidata.org/entity/Q1054574", # mapping of romantic comedy to comedy and romance films 
     "http://www.wikidata.org/entity/Q859369": "http://www.wikidata.org/entity/Q157443,http://www.wikidata.org/entity/Q130232" # mapping of comedy-drama to comedy and drama films
@@ -85,7 +85,7 @@ def fetch_data(query):
 
 def preprocess_genres(genres): 
 
-    for key, value in MANUEL_GENRE_MAPPING.items():
+    for key, value in MANUAL_GENRE_MAPPING.items():
         if key in genres: 
             genres = genres.replace(key, value)
 
