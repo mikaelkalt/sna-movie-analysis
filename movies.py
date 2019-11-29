@@ -152,7 +152,7 @@ def parse_actor_results(results, nodes, edges):
     return nodes, edges
 
 def remove_duplicates(nodes):
-    return nodes.drop_duplicates()
+    return nodes.drop_duplicates(subset = ['Source', 'Target'])
 
 def write_csvs(nodes_df):
     nodes_df.to_csv('output/nodes.csv', index=True, index_label='ID', encoding='utf-8')
